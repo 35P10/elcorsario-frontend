@@ -180,6 +180,8 @@ header span {
 
   .hero {
     height: 60vh;
+    min-height: 700px;
+    max-height: 1024x;
     padding: 48px 96px;
   }
 
