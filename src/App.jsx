@@ -24,8 +24,10 @@ function App() {
         <section className='hero'>
           <div className='bottle'></div>
           <div className='superficie'></div>
-          <h1>Conéctate con la fuerza del océano en cada sorbo</h1>
-          <button>Convierte en distribuidor</button>
+          <div className='section_hero__content'>
+            <h1>Conéctate con la fuerza del océano en cada sorbo</h1>
+            <button>Convierte en distribuidor</button>
+          </div>
         </section>
         <section className='factos_section'>
           <FactCard iconUrl="images/factos/mountain-white.png"  text="Alta pureza y minerales esenciales" />

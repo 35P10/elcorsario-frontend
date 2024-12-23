@@ -16,7 +16,6 @@ header {
 
 header ul {
   display: none;
-  gap: 16px;
   text-decoration: none;
 }
 
@@ -71,7 +70,7 @@ header span {
   top: 55%;
   height: 600px;
   width: 100%;
-  z-index: 0;
+  z-index: 1;
   background-image: url(./assets/images/product/bottle-1.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -95,7 +94,7 @@ header span {
 .products {
   position: relative;
   display: flex;
-  z-index: 1;
+  z-index: 2;
   margin: 48px 0;
 }
 
@@ -109,7 +108,7 @@ header span {
   background-color: var(--color-accent);
   padding:  72px 48px;
   gap: 64px;
-  z-index: 1;
+  z-index: 2;
   color: aliceblue;
 }
 
@@ -164,8 +163,49 @@ header span {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  
+  header ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    font-weight: 600;
+  }
+
+  .hero {
+    height: 60vh;
+    padding: 48px 96px;
+  }
+
+  .section_hero__content {
+    display: block;
+    width: 50%;
+    margin-right: auto;
+  }
+
+  .bottle {
+    position: absolute;
+    background-position: right;
+    right: 80px;
+    top: auto;
+    bottom: 48px;
+  }
+
+  .superficie {
+    display:block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url(./assets/images/hero-surface.png);
+    z-index: 0;
+  }
+
+  .factos_section {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 }
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 1024) {
