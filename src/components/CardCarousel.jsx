@@ -2,11 +2,10 @@ import React, { useState } from 'react';
 import './CardCarousel.css';
 
 const cards = [
-  { id: 1, title: 'Card 1', imageUrl: 'https://content.health.harvard.edu/wp-content/uploads/2023/07/b8a1309a-ba53-48c7-bca3-9c36aab2338a.jpg' },
-  { id: 2, title: 'Card 2', imageUrl: 'https://content.health.harvard.edu/wp-content/uploads/2023/07/b8a1309a-ba53-48c7-bca3-9c36aab2338a.jpg' },
-  { id: 3, title: 'Card 3', imageUrl: 'https://content.health.harvard.edu/wp-content/uploads/2023/07/b8a1309a-ba53-48c7-bca3-9c36aab2338a.jpg' },
-  { id: 4, title: 'Card 4', imageUrl: 'https://content.health.harvard.edu/wp-content/uploads/2023/07/b8a1309a-ba53-48c7-bca3-9c36aab2338a.jpg' },
-  { id: 5, title: 'Card 5', imageUrl: 'https://content.health.harvard.edu/wp-content/uploads/2023/07/b8a1309a-ba53-48c7-bca3-9c36aab2338a.jpg' }
+  { id: 1, title: 'Botella de 500 ml', content: 'Perfecta para acompañarte en tus días activos.', imageUrl: 'images/product/bottle-1.png' },
+  { id: 2, title: 'Botella de 1 L', content: 'Pensada para mantenerte hidratado durante todo el día.', imageUrl: 'images/product/bottle-1.png' },
+  { id: 3, title: 'Garrafón de 20 L', content: 'Tu aliado para abastecer a toda la familia.', imageUrl: 'images/product/bottle-1.png' },
+  { id: 4, title: 'Hielo', content: 'Perfecta para refrescar tu día.', imageUrl: 'images/product/bottle-1.png' }
 ];
 
 const CardCarousel = () => {
@@ -23,8 +22,8 @@ const CardCarousel = () => {
   };
 
   return (
-    <div className="carousel-container">
-      <button className="carousel-button left" onClick={prevCard}>
+    <div className="carousel_container">
+      <button className="carousel_button left" onClick={prevCard}>
         {'<'}
       </button>
       <div className="carousel">
@@ -45,12 +44,16 @@ const CardCarousel = () => {
                 alt={card.title}
                 className={`card-image ${isCentered ? '' : 'faded'}`}
               />
-              {isCentered && <h2 className="card-title">{card.title}</h2>}
+              <div className="card-title-mobile">
+                <h3>{card.title}</h3>
+                <p>{card.content}</p>
+              </div>
+              {isCentered && <p className="card-title-tablet">{card.title}</p>}
             </div>
           );
         })}
       </div>
-      <button className="carousel-button right" onClick={nextCard}>
+      <button className="carousel_button right" onClick={nextCard}>
         {'>'}
       </button>
     </div>
