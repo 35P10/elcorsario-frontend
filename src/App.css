@@ -62,13 +62,7 @@ header span {
 }
 
 .hero button {
-  display: block;
   margin-right: auto;
-  width: max-content;
-  padding: 0 24px;
-  height: 56px;
-  background-color: black;
-  color: aliceblue;
 }
 
 .bottle {
@@ -155,9 +149,18 @@ header span {
 }
 
 .joinus_section {
-  padding: 48px; 
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 48px;
   background-color: var(--color-accent);
   color: aliceblue;
+}
+
+.joinus_section__content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; 
 }
 
 @media only screen and (min-width: 425) {
