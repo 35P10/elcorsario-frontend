@@ -48,7 +48,10 @@ const CardCarousel = () => {
                 <h3>{card.title}</h3>
                 <p>{card.content}</p>
               </div>
-              {isCentered && <p className="card-title-tablet">{card.title}</p>}
+              {isCentered && <div className="card-title-tablet">
+                <h3>{card.title}</h3>
+                <p>{card.content}</p>
+              </div>}
             </div>
           );
         })}
