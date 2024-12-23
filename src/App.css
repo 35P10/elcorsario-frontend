@@ -113,13 +113,16 @@ header span {
 }
 
 .aboutus_section {
+  background-color: var(--color-accent);
+  color: aliceblue;
+}
+
+.aboutus_section__content {
   display: flex;
   flex-direction: column;
   height: auto;
-  padding: 48px;
+  padding: 96px;
   gap: 24px;
-  background-color: var(--color-accent);
-  color: aliceblue;
 }
 
 .compromises_section .content {
@@ -163,6 +166,11 @@ header span {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  header {
+    max-width: 1320px;
+    margin: auto;
+  }
+
   header ul {
     display: flex;
     list-style: none;
@@ -178,13 +186,14 @@ header span {
   .section_hero__content {
     display: block;
     width: 50%;
-    margin-right: auto;
+    margin-right: 320px;
+    max-width: 512px;
   }
 
   .bottle {
     position: absolute;
     background-position: right;
-    right: 80px;
+    right: calc(100vw / 2 - 200px);
     top: auto;
     bottom: 48px;
   }
@@ -208,13 +217,52 @@ header span {
   .products {
     display: block;
     height: 400px;
-    width: 90vw;
+    width: 99vw;
     margin: 48px auto;
+    max-width: 1320px;
+    margin: auto;
+  }
+
+  .compromises_section {
+    display: flex;
+    max-width: 1024px;
+    margin: auto;
+  }
+
+  .compromises_section__image_1, .compromises_section__image_2 {
+    min-width: 50%;
+  }
+
+  .compromises_section__image_2 {
+    order: 2;
+  }
+
+  .joinus_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 92px 0;
+    gap: 48px;
+  }
+
+  .joinus_section__content {
+    width: 50%;
+    max-width: 700px;
+  }
+
+  .aboutus_section__content {
+    max-width: 1024px;
+    margin: auto;
   }
 }
 
-
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 1024) {
-  
+  .bottle {
+    position: absolute;
+    background-position: right;
+    right: calc(100vw / 2 - 500px);
+    top: auto;
+    bottom: 48px;
+  }  
 }

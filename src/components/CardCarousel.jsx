@@ -5,7 +5,7 @@ const cards = [
   { id: 1, title: 'Botella de 500 ml', content: 'Perfecta para acompañarte en tus días activos.', imageUrl: 'images/product/bottle-1.png' },
   { id: 2, title: 'Botella de 1 L', content: 'Pensada para mantenerte hidratado durante todo el día.', imageUrl: 'images/product/bottle-1.png' },
   { id: 3, title: 'Garrafón de 20 L', content: 'Tu aliado para abastecer a toda la familia.', imageUrl: 'images/product/bottle-1.png' },
-  { id: 4, title: 'Hielo', content: 'Perfecta para refrescar tu día.', imageUrl: 'images/product/bottle-1.png' }
+  //{ id: 4, title: 'Hielo', content: 'Perfecta para refrescar tu día.', imageUrl: 'images/product/bottle-1.png' }
 ];
 
 const CardCarousel = () => {
