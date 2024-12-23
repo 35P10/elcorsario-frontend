@@ -28,3 +28,18 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
+* {
+  margin: 0;
+}
+
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  border-radius: 13px;
+}

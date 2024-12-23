@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <header>
-      <span>ico</span>
+      <span></span>
       <ul>
         <li>Productos</li>
         <li>Nosotros</li>
@@ -24,20 +24,16 @@ function App() {
         <section className='hero'>
           <div className='bottle'></div>
           <div className='superficie'></div>
-          <h1>El Corsario</h1>
-          <button>Distribución</button>
-          <button>Distribución</button>
+          <h1>Conéctate con la fuerza del océano en cada sorbo</h1>
+          <button>Convierte en distribuidor</button>
         </section>
-        <section className='certifications'>
-          <p>Conéctate con la fuerza del océano en cada sorbo</p>
+        <section className='factos_section'>
+          <FactCard iconUrl="images/factos/mountain-white.png"  text="Alta pureza y minerales esenciales" />
+          <FactCard iconUrl="images/factos/water-white.png" text="Electrolitos 100% naturales" />
+          <FactCard iconUrl="images/factos/ph-white.png" text="Ph perfectamente balanceado" />
         </section>
         <section className='products'>
           <CardCarousel />
-        </section>
-        <section className='factos_section'>
-          <FactCard iconUrl="images/factos/mountain-48.png"  text="Alta pureza y minerales esenciales" />
-          <FactCard iconUrl="images/factos/water-64.png" text="100% electrolitos naturales" />
-          <FactCard iconUrl="images/factos/ph-meter-64.png" text="ph perfectamente balanceado" />
         </section>
         <section className='aboutus_section'>
           <h2>Un Legado de Pureza y Fuerza</h2>
@@ -45,7 +41,8 @@ function App() {
           <iframe src="https://www.youtube.com/embed/-PDnOqKFh9s?si=pWtwM0BQlwQxYjKV" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin"></iframe>
         </section>
         <section className='compromises_section'>
-          <div>
+          <div className='compromises_section__image_1'></div>
+          <div className='content'>
             <h2>Nuestro Compromiso con la Calidad</h2>
             <p>La calidad no es una opción, es un estándar. Nuestro proceso de purificación incluye:
             </p>
@@ -56,8 +53,9 @@ function App() {
             </ul>
           </div>
         </section>
-        <section className='compromises_section'>      
-          <div>
+        <section className='compromises_section'>
+        <div className='compromises_section__image_2'></div>     
+        <div className='content'>
             <h2>Sostenibilidad</h2>
             <p>Nuestro compromiso con el medio ambiente es tan fuerte como nuestras raíces. 
             </p>

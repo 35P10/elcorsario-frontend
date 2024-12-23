@@ -48,7 +48,7 @@ header span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 70vh;
+  height: 75vh;
   padding: 24px;
   background-image: url(./assets/images/hero-background.jpg);
   background-position: center;
@@ -58,13 +58,23 @@ header span {
 
 .hero h1 {
   color: black;
-  margin-top: 20%;
+  margin: 10% 0 48px 0;
+}
+
+.hero button {
+  display: block;
+  margin-right: auto;
+  width: max-content;
+  padding: 0 24px;
+  height: 56px;
+  background-color: black;
+  color: aliceblue;
 }
 
 .bottle {
   display: block;
   position: absolute;
-  top: 50%;
+  top: 55%;
   height: 600px;
   width: 100%;
   z-index: 0;
@@ -72,10 +82,6 @@ header span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-.hero button {
-  width: 100%;
 }
 
 /*DIVISION*/
@@ -102,11 +108,15 @@ header span {
 /*Division*/
 
 .factos_section {
+  position: relative;
   display: flex;
   flex-direction: column;
   height: auto;
-  margin: 48px;
-  gap: 24px;
+  background-color: var(--color-accent);
+  padding: 48px;
+  gap: 64px;
+  z-index: 1;
+  color: aliceblue;
 }
 
 .aboutus_section {
@@ -116,15 +126,50 @@ header span {
   padding: 48px;
   gap: 24px;
   background-color: var(--color-accent);
+  color: aliceblue;
 }
 
+
+.compromises_section .content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 48px;
+}
+
+.compromises_section__image_1, .compromises_section__image_2 {
+  display: block;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.compromises_section__image_1 {
+  background-image: url(./assets/images/compromise_1.jpg);
+}
+
+
+.compromises_section__image_2 {
+  background-image: url(./assets/images/compromise_2.jpg);
+}
 
 .joinus_section {
   padding: 48px; 
+  background-color: var(--color-accent);
+  color: aliceblue;
 }
 
-@media screen and (min-width: 480px) {
-  body {
-    background-color: lightgreen;
-  }
+@media only screen and (min-width: 425) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1024) {
+  
 }
