@@ -257,7 +257,7 @@ header span {
   }
 }
 
-@media only screen and (min-width: 1024) {
+@media only screen and (min-width: 1024px) {
   .bottle {
     position: absolute;
     background-position: right;
