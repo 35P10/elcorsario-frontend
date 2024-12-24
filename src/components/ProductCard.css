@@ -1,0 +1,13 @@
+.product_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.product_card img {
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 24px;
+}

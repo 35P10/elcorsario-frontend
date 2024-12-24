@@ -1,14 +1,15 @@
 import React from 'react';
+import './ProductCard.css';
 
-const ProductCard = ({ title, imageUrl, isCentered }) => {
+const ProductCard = ({ title, imageUrl, description }) => {
   return (
-    <div className={`card ${isCentered ? 'centered' : ''}`}>
+    <div className='product_card'>
       <img
         src={imageUrl}
         alt={title}
-        className={`card-image ${isCentered ? '' : 'faded'}`}
       />
-      {isCentered && <h2 className="card-title">{title}</h2>}
+      <h3>{title}</h3>
+      <p>{description}</p>
     </div>
   );
 };

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import HeroSection from './views/home/HeroSection';
 import PropsSection from './views/home/PropsSection';
+import ProductsSection from './views/home/ProductsSection';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <main>
         <HeroSection />
         <PropsSection />
+        <ProductsSection />
       </main>
       <footer>
         
@@ -29,8 +31,6 @@ function App() {
 }
 
 /*
-
-        <ProductsSection />
         <AboutUsSection />
         <CompromisesSection />
         <JoinUsSection />
