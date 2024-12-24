@@ -36,7 +36,7 @@ header span {
   display: block;
   width: 48px;
   height: 48px;
-  background-image: url(images/icon.png);
+  background-image: url(./../images/icon.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
