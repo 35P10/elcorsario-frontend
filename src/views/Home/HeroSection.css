@@ -7,7 +7,7 @@
   flex-direction: column;
   align-items: center;
   
-  background-image: url(src/assets/images/hero-background.jpg);
+  background-image: url(images/hero-background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,7 +50,7 @@
   height: 600px;
   width: 100%;
   z-index: 1;
-  background-image: url(public/images/product/bottle-1.png);
+  background-image: url(images/product/bottle-1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -75,7 +75,7 @@
     bottom: 0;
     width: 100%;
     height: 100px;
-    background-image: url(src/assets/images/hero-surface.png);
+    background-image: url(images/hero-surface.png);
     z-index: 1;
   }
 
