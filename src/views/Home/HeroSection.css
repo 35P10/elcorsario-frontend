@@ -8,6 +8,7 @@
   align-items: center;
   
   background-image: url(./../images/hero-background.jpg);
+  background-color: var(--color-accent);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,7 +76,8 @@
     bottom: 0;
     width: 100%;
     height: 100px;
-    background-image: url(images/hero-surface.png);
+    background-image: url(./../images/hero-surface.png);
+    background-color: var(--color-accent);
     z-index: 1;
   }
 

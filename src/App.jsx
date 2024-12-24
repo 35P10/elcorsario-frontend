@@ -1,15 +1,12 @@
-import { useState } from 'react'
 import './App.css'
-import HeroSection from './views/home/HeroSection';
-import PropsSection from './views/home/PropsSection';
-import ProductsSection from './views/home/ProductsSection';
-import AboutUsSection from './views/home/AboutUsSection';
-import CompromisesSection from './views/home/CompromisesSection';
-import JoinUsSection from './views/home/JoinUsSection';
+import HeroSection from './views/Home/HeroSection';
+import PropsSection from './views/Home/PropsSection';
+import ProductsSection from './views/Home/ProductsSection';
+import AboutUsSection from './views/Home/AboutUsSection';
+import CompromisesSection from './views/Home/CompromisesSection';
+import JoinUsSection from './views/Home/JoinUsSection';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <header>
