@@ -1,0 +1,30 @@
+.aboutus_section {
+    display: block;
+    background-image: url("src/assets/images/background2.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: var(--margin-mobile-y) var(--margin-mobile-x) ;
+}
+
+.aboutus_section__content {
+    display: flex;
+    flex-direction: column;
+    max-width: var(--max-width);
+    margin: auto;
+    text-align: center;
+    gap: 24px;
+}
+
+.aboutus_video {
+    display: block;
+    max-width: var(--max-width);
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.video_section {
+    background-color: var(--color-background-dark);
+    width: 100%;
+}

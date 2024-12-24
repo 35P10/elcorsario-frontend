@@ -3,6 +3,7 @@ import './App.css'
 import HeroSection from './views/home/HeroSection';
 import PropsSection from './views/home/PropsSection';
 import ProductsSection from './views/home/ProductsSection';
+import AboutUsSection from './views/home/AboutUsSection';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
         <HeroSection />
         <PropsSection />
         <ProductsSection />
+        <AboutUsSection />
       </main>
       <footer>
         
