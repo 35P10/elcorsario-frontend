@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Gabarito", serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -43,7 +43,7 @@ button {
   display: block;
   width: max-content;
   padding: 0 24px;
-  height: 56px;
+  height: auto;
   background-color: black;
   color: aliceblue;
 }

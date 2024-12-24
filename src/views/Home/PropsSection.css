@@ -1,0 +1,28 @@
+.factos_section {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: var(--margin-mobile-y) 0;      
+    background-color: var(--color-background-dark);
+    z-index: 2;
+}
+
+.factos_section__content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+
+    color: aliceblue;
+}
+
+@media only screen and (min-width: 1024px) {
+    .factos_section__content {
+        flex-direction: row;     
+        max-width: var(--max-width) ;
+        margin: var(--margin-mobile-y) auto; 
+        gap: 96px;
+    }   
+}

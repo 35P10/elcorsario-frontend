@@ -1,6 +1,14 @@
 :root {
   --color-accent: #0079BD;
   --color-background: white;
+  --color-background-dark: black;
+
+  --margin-mobile-y: 48px;
+  --margin-mobile-x: 24px;
+  --max-width: 1024px;
+  
+  --letter-spacing: -1px;
+
 }
 
 /*HEADER*/
@@ -40,55 +48,6 @@ header span {
   margin-left: auto;
 }
 
-/*HERO*/
-
-.hero {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 75vh;
-  padding: 24px;
-  background-image: url(./assets/images/hero-background.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.hero h1 {
-  color: black;
-  margin: 10% 0 48px 0;
-}
-
-.hero button {
-  margin-right: auto;
-}
-
-.bottle {
-  display: block;
-  position: absolute;
-  top: 55%;
-  height: 600px;
-  width: 100%;
-  z-index: 1;
-  background-image: url(./assets/images/product/bottle-1.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-/*DIVISION*/
-
-.certifications {
-  position: relative;
-  display: flex;
-  z-index: 1;
-  height: 180px;
-  background-color: var(--color-accent);
-  align-items: center;
-  justify-content: center;
-}
-
 /*Productos*/
 
 .products {
@@ -96,20 +55,6 @@ header span {
   display: flex;
   z-index: 2;
   margin: 48px 0;
-}
-
-/*factos no tan factos*/
-
-.factos_section {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  background-color: var(--color-accent);
-  padding:  72px 48px;
-  gap: 64px;
-  z-index: 2;
-  color: aliceblue;
 }
 
 .aboutus_section {
@@ -165,6 +110,7 @@ header span {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
+/*
 @media only screen and (min-width: 768px) {
   header {
     max-width: 1320px;
@@ -178,43 +124,6 @@ header span {
     font-weight: 600;
   }
 
-  .hero {
-    height: 60vh;
-    min-height: 700px;
-    max-height: 1024x;
-    padding: 48px 96px;
-  }
-
-  .section_hero__content {
-    display: block;
-    width: 50%;
-    margin-right: 320px;
-    max-width: 512px;
-  }
-
-  .bottle {
-    position: absolute;
-    background-position: right;
-    right: calc(100vw / 2 - 200px);
-    top: auto;
-    bottom: 48px;
-  }
-
-  .superficie {
-    display:block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    background-image: url(./assets/images/hero-surface.png);
-    z-index: 0;
-  }
-
-  .factos_section {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
 
   .products {
     display: block;
@@ -268,3 +177,5 @@ header span {
     bottom: 48px;
   }  
 }
+
+*/

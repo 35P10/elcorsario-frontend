@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    text-align: center;
+    max-width: 200px;
 }
 
 .fact_container img {

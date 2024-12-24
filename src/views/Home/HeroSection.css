@@ -1,0 +1,119 @@
+.hero_section {
+  position: relative;
+  height: 400px;
+  padding: var(--margin-mobile-y) var(--margin-mobile-x);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background-image: url(src/assets/images/hero-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_hero__content {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: black;
+}
+
+.section_hero__content h1 {
+  font-weight: 500;
+  font-size: 3.8rem;
+}
+
+.section_hero__content p {
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;  
+}
+
+.hero_section button {
+  display: block;
+  margin-top: auto;
+  z-index: 2;
+  font-weight: 700;
+  font-size: 2rem;  
+}
+
+.bottle {
+  display: block;
+  position: absolute;
+  top: 40%;
+  height: 600px;
+  width: 100%;
+  z-index: 1;
+  background-image: url(public/images/product/bottle-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media only screen and (min-width: 768px) {
+  .bottle {
+    top: auto;
+    bottom: 48px;
+    height: 70%;
+    z-index: 2;
+  }
+  
+  .hero_section {
+    height: 75vh;
+    max-height: 700px;
+  }
+
+  .superficie {
+    display:block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url(src/assets/images/hero-surface.png);
+    z-index: 1;
+  }
+
+  .hero_section button {
+    display: block;
+    margin-top: 400px;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .section_hero__content {
+    max-width: var(--max-width) ;
+    align-items:start;
+    justify-content: center;
+    margin: var(--margin-mobile-y) var(--margin-mobile-x);
+  }
+
+  .section_hero__content h1 {
+    width: 50%;
+    line-height: 6rem;
+    font-size: 8rem;
+  }
+
+  .section_hero__content p {
+    font-size: 1.6rem;
+  }
+
+  .hero_section button {
+    margin-top: 48px;
+    font-size: 3rem;
+  }
+
+  .bottle {
+    position: absolute;
+    background-position: right;
+    right: calc(100vw / 2 - 500px);
+    top: auto;
+    bottom: 48px;
+  }  
+}
