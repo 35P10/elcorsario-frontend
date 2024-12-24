@@ -4,6 +4,7 @@ import HeroSection from './views/home/HeroSection';
 import PropsSection from './views/home/PropsSection';
 import ProductsSection from './views/home/ProductsSection';
 import AboutUsSection from './views/home/AboutUsSection';
+import CompromisesSection from './views/home/CompromisesSection';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
         <PropsSection />
         <ProductsSection />
         <AboutUsSection />
+        <CompromisesSection />
       </main>
       <footer>
         
@@ -33,7 +35,7 @@ function App() {
 }
 
 /*
-        <AboutUsSection />
+
         <CompromisesSection />
         <JoinUsSection />
 */

@@ -1,12 +1,12 @@
 import React from 'react';
-//import './CompromisesSection.css';
+import './CompromisesSection.css';
 
 const CompromisesSection = () => {
   return (
-    <section>
-        <div className='compromises_section'>
+    <section className='compromises_section'>
+        <div className='compromises_section__content'>
           <div className='compromises_section__image_1'></div>
-          <div className='content'>
+          <div className='compromises_section__content__text'>
             <h2>Nuestro Compromiso con la Calidad</h2>
             <p>La calidad no es una opción, es un estándar. Nuestro proceso de purificación incluye:
             </p>
@@ -17,9 +17,9 @@ const CompromisesSection = () => {
             </ul>
           </div>
         </div>
-        <div className='compromises_section'>
-        <div className='compromises_section__image_2'></div>     
-        <div className='content'>
+        <div className='compromises_section__content'>
+          <div className='compromises_section__image_2'></div>     
+          <div className='compromises_section__content__text'>
             <h2>Sostenibilidad</h2>
             <p>Nuestro compromiso con el medio ambiente es tan fuerte como nuestras raíces. 
             </p>

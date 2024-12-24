@@ -1,0 +1,50 @@
+.compromises_section {
+    display: block;
+    width: 100%;
+}
+
+.compromises_section__content {
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.compromises_section__image_1, .compromises_section__image_2 {
+    display: block;
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.compromises_section__image_1 {
+    background-image: url("src/assets/images/compromise_1.jpg") ;
+}
+
+.compromises_section__image_2 {
+    background-image: url("src/assets/images/compromise_2.jpg") ;
+}
+
+.compromises_section__content__text {
+    padding: var(--margin-mobile-y) var(--margin-mobile-x);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .compromises_section__content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .compromises_section__image_1, .compromises_section__image_2 {
+        min-width: 50%;
+        max-width: 50%;
+        height: 500px;
+    }
+
+    .compromises_section__image_2 {
+        order: 2;
+    }
+  }
