@@ -41,10 +41,14 @@
     .compromises_section__image_1, .compromises_section__image_2 {
         min-width: 50%;
         max-width: 50%;
-        height: 500px;
+        height: 400px;
     }
 
-    .compromises_section__image_2 {
-        order: 2;
+    .compromises_section__content__text__2 {
+        order: 1;
+    }
+
+    .compromises_section__content h2 {
+        margin-top: auto;
     }
   }

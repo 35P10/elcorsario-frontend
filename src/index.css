@@ -46,10 +46,19 @@ button {
 	outline: inherit;
   border-radius: 13px;
 
+  font-weight: 700;
+  font-size: 2rem;  
+
   display: block;
   width: max-content;
   padding: 0 24px;
   height: auto;
   background-color: black;
   color: aliceblue;
+}
+
+@media only screen and (min-width: 1024px) {
+  button {
+    font-size: 3rem;
+  }
 }

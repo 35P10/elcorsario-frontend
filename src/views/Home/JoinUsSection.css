@@ -1,0 +1,41 @@
+.joinus_section {
+    display: block;
+    background-color: black;
+    padding: var(--margin-mobile-y) var(--margin-mobile-x);
+    color: aliceblue;
+}
+
+.joinus_section__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: var(--max-width);
+    margin: auto;
+    text-align: center;
+}
+
+.joinus_section button {
+    background-color: aliceblue;
+    color: black;
+    margin: 48px auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .joinus_section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 92px;
+    }
+
+
+    .joinus_section__content {
+        max-width: calc(var(--max-width) / 2);
+        margin: 0;
+        text-align: start;
+    }
+
+    .joinus_section button {
+        margin: 0;
+    }
+}

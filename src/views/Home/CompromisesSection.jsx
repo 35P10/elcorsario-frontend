@@ -5,7 +5,6 @@ const CompromisesSection = () => {
   return (
     <section className='compromises_section'>
         <div className='compromises_section__content'>
-          <div className='compromises_section__image_1'></div>
           <div className='compromises_section__content__text'>
             <h2>Nuestro Compromiso con la Calidad</h2>
             <p>La calidad no es una opción, es un estándar. Nuestro proceso de purificación incluye:
@@ -16,10 +15,10 @@ const CompromisesSection = () => {
               <li>Certificaciones que garantizan un agua de confianza.</li>
             </ul>
           </div>
+          <div className='compromises_section__image_1'></div>
         </div>
         <div className='compromises_section__content'>
-          <div className='compromises_section__image_2'></div>     
-          <div className='compromises_section__content__text'>
+          <div className='compromises_section__content__text compromises_section__content__text__2'>
             <h2>Sostenibilidad</h2>
             <p>Nuestro compromiso con el medio ambiente es tan fuerte como nuestras raíces. 
             </p>
@@ -29,6 +28,7 @@ const CompromisesSection = () => {
               <li>Trabajamos con comunidades portuarias para cuidar los recursos naturales.</li>
             </ul>
           </div>
+          <div className='compromises_section__image_2'></div>     
         </div>
     </section>
   );

@@ -5,6 +5,7 @@ import PropsSection from './views/home/PropsSection';
 import ProductsSection from './views/home/ProductsSection';
 import AboutUsSection from './views/home/AboutUsSection';
 import CompromisesSection from './views/home/CompromisesSection';
+import JoinUsSection from './views/home/JoinUsSection';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +27,7 @@ function App() {
         <ProductsSection />
         <AboutUsSection />
         <CompromisesSection />
+        <JoinUsSection />
       </main>
       <footer>
         

@@ -1,5 +1,5 @@
 import React from 'react';
-//import './JoinUsSection.css';
+import './JoinUsSection.css';
 
 const JoinUsSection = () => {
   return (
@@ -9,7 +9,7 @@ const JoinUsSection = () => {
         <p>¡Conviértete en Distribuidor!
         Forma parte de nuestra red de distribuidores y lleva la fuerza y pureza de El Corsario a más personas.</p>
       </div>
-      <button>LLenar formulario</button>
+      <button>CONTACTANOS</button>
   </section>
   );
 };
