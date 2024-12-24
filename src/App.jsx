@@ -29,17 +29,10 @@ function App() {
         <CompromisesSection />
         <JoinUsSection />
       </main>
-      <footer>
-        
-      </footer>
     </>
   )
 }
 
-/*
 
-        <CompromisesSection />
-        <JoinUsSection />
-*/
 
 export default App

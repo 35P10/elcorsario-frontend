@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 48px;
-    padding: 0 var(--margin-mobile-x);
+    padding: 0 var(--margin-mobile-y);
 }
 
 @media only screen and (min-width: 768px) {

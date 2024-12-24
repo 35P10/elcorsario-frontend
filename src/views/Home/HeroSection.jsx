@@ -8,8 +8,8 @@ const HeroSection = () => {
       <div className='superficie'></div>
       <div className='section_hero__content'>
         <h1>EL CORSARIO</h1>
-        <p>EL AGUA QUE TE ACOMPANA</p>
-        <button>PROXIMAMENTE</button>
+        <p>EL AGUA QUE TE ACOMPAÑA</p>
+        <button>PRÓXIMAMENTE</button>
       </div>
   </section>
   );
